@@ -63,9 +63,3 @@ for ticker, weight in zip(tickers, optimal_weights):
 
 csv_data = stock_data.to_csv()
 st.download_button("Download Stock Data CSV", csv_data, "stock_data.csv")
-
-finanalysis.py
-
-
-Explain
-Displaying finanalysis.py.
